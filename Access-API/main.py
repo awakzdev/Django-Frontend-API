@@ -55,7 +55,7 @@ def project():
             reported_workers.append(person)
     information = reported_workers
 
-    # prettify and save to a text file
+    # prettify and save as a json
     save = json.dumps(information, indent=2)
     logger.info(f"filtered workers : \n{save}")
 
