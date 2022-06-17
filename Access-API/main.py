@@ -22,7 +22,7 @@ def project():
     # Convert text into json format
     workers = json.loads(data.text)
     data_json = json.dumps(workers, indent=2)
-    logger.info(f" List of workers : \n{data_json}")
+    logger.info(f"List of workers : \n{data_json}")
 
     # Get average worker salary
     total_salary = 0
