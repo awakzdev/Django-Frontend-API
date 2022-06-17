@@ -1,0 +1,948 @@
+2022-06-17 19:04:04,673 [INFO] [
+  {
+    "id": 1,
+    "first_name": "Steven",
+    "last_name": "King",
+    "email": "SKING",
+    "phone_number": 5151234567,
+    "hire_date": "2021-06-17",
+    "job_id": "AD_PRES",
+    "salary": 24000,
+    "commission_pct": 0,
+    "manager_id": 0,
+    "department_id": 0
+  },
+  {
+    "id": 2,
+    "first_name": "Neena",
+    "last_name": "Kochhar",
+    "email": "NKOCHHAR",
+    "phone_number": 5151234568,
+    "hire_date": "2020-06-17",
+    "job_id": "AD_VP",
+    "salary": 17000,
+    "commission_pct": 0,
+    "manager_id": 100,
+    "department_id": 90
+  },
+  {
+    "id": 3,
+    "first_name": "Lex",
+    "last_name": "De Haan",
+    "email": "LDEHAAN",
+    "phone_number": 5151234569,
+    "hire_date": "2022-06-17",
+    "job_id": "AD_VP",
+    "salary": 17000,
+    "commission_pct": 0,
+    "manager_id": 100,
+    "department_id": 90
+  },
+  {
+    "id": 4,
+    "first_name": "Alexander",
+    "last_name": "Hunold",
+    "email": "AHUNOLD",
+    "phone_number": 5151234570,
+    "hire_date": "2022-06-17",
+    "job_id": "IT_PROG",
+    "salary": 9000,
+    "commission_pct": 0,
+    "manager_id": 102,
+    "department_id": 60
+  },
+  {
+    "id": 5,
+    "first_name": "Bruce",
+    "last_name": "Ernst",
+    "email": "BERNST",
+    "phone_number": 5151234571,
+    "hire_date": "2016-07-17",
+    "job_id": "IT_PROG",
+    "salary": 6000,
+    "commission_pct": 0,
+    "manager_id": 103,
+    "department_id": 60
+  },
+  {
+    "id": 6,
+    "first_name": "David",
+    "last_name": "Austin",
+    "email": "DAUSTIN",
+    "phone_number": 5151234572,
+    "hire_date": "1955-01-21",
+    "job_id": "IT_PROG",
+    "salary": 4800,
+    "commission_pct": 0,
+    "manager_id": 103,
+    "department_id": 60
+  },
+  {
+    "id": 7,
+    "first_name": "Moshe",
+    "last_name": "Agor",
+    "email": "MGOR",
+    "phone_number": 5151234573,
+    "hire_date": "2022-06-17",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 105,
+    "department_id": 60
+  },
+  {
+    "id": 8,
+    "first_name": "Daniel",
+    "last_name": "Cohen",
+    "email": "DOHEN",
+    "phone_number": 5151234574,
+    "hire_date": "2022-06-17",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 105,
+    "department_id": 60
+  },
+  {
+    "id": 9,
+    "first_name": "Inbal",
+    "last_name": "Amor",
+    "email": "IMOR",
+    "phone_number": 5151234575,
+    "hire_date": "2013-08-23",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 104,
+    "department_id": 60
+  },
+  {
+    "id": 10,
+    "first_name": "Roy",
+    "last_name": "Hamen",
+    "email": "RAMEN",
+    "phone_number": 5151234576,
+    "hire_date": "2018-02-12",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 105,
+    "department_id": 60
+  }
+]
+2022-06-17 19:04:04,673 [INFO] Average worker salary is : 9780.0
+2022-06-17 19:04:04,673 [INFO] Current date is - 2022-06-17
+2022-06-17 19:04:04,674 [INFO] [
+  {
+    "id": 1,
+    "first_name": "Steven",
+    "last_name": "King",
+    "email": "SKING",
+    "phone_number": 5151234567,
+    "hire_date": "2021-06-17",
+    "job_id": "AD_PRES",
+    "salary": 24000,
+    "commission_pct": 0,
+    "manager_id": 0,
+    "department_id": 0
+  },
+  {
+    "id": 2,
+    "first_name": "Neena",
+    "last_name": "Kochhar",
+    "email": "NKOCHHAR",
+    "phone_number": 5151234568,
+    "hire_date": "2020-06-17",
+    "job_id": "AD_VP",
+    "salary": 17000,
+    "commission_pct": 0,
+    "manager_id": 100,
+    "department_id": 90
+  },
+  {
+    "id": 5,
+    "first_name": "Bruce",
+    "last_name": "Ernst",
+    "email": "BERNST",
+    "phone_number": 5151234571,
+    "hire_date": "2016-07-17",
+    "job_id": "IT_PROG",
+    "salary": 6000,
+    "commission_pct": 0,
+    "manager_id": 103,
+    "department_id": 60
+  },
+  {
+    "id": 9,
+    "first_name": "Inbal",
+    "last_name": "Amor",
+    "email": "IMOR",
+    "phone_number": 5151234575,
+    "hire_date": "2013-08-23",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 104,
+    "department_id": 60
+  }
+]
+2022-06-17 19:05:43,112 [INFO] [
+  {
+    "id": 1,
+    "first_name": "Steven",
+    "last_name": "King",
+    "email": "SKING",
+    "phone_number": 5151234567,
+    "hire_date": "2021-06-17",
+    "job_id": "AD_PRES",
+    "salary": 24000,
+    "commission_pct": 0,
+    "manager_id": 0,
+    "department_id": 0
+  },
+  {
+    "id": 2,
+    "first_name": "Neena",
+    "last_name": "Kochhar",
+    "email": "NKOCHHAR",
+    "phone_number": 5151234568,
+    "hire_date": "2020-06-17",
+    "job_id": "AD_VP",
+    "salary": 17000,
+    "commission_pct": 0,
+    "manager_id": 100,
+    "department_id": 90
+  },
+  {
+    "id": 3,
+    "first_name": "Lex",
+    "last_name": "De Haan",
+    "email": "LDEHAAN",
+    "phone_number": 5151234569,
+    "hire_date": "2022-06-17",
+    "job_id": "AD_VP",
+    "salary": 17000,
+    "commission_pct": 0,
+    "manager_id": 100,
+    "department_id": 90
+  },
+  {
+    "id": 4,
+    "first_name": "Alexander",
+    "last_name": "Hunold",
+    "email": "AHUNOLD",
+    "phone_number": 5151234570,
+    "hire_date": "2022-06-17",
+    "job_id": "IT_PROG",
+    "salary": 9000,
+    "commission_pct": 0,
+    "manager_id": 102,
+    "department_id": 60
+  },
+  {
+    "id": 5,
+    "first_name": "Bruce",
+    "last_name": "Ernst",
+    "email": "BERNST",
+    "phone_number": 5151234571,
+    "hire_date": "2016-07-17",
+    "job_id": "IT_PROG",
+    "salary": 6000,
+    "commission_pct": 0,
+    "manager_id": 103,
+    "department_id": 60
+  },
+  {
+    "id": 6,
+    "first_name": "David",
+    "last_name": "Austin",
+    "email": "DAUSTIN",
+    "phone_number": 5151234572,
+    "hire_date": "1955-01-21",
+    "job_id": "IT_PROG",
+    "salary": 4800,
+    "commission_pct": 0,
+    "manager_id": 103,
+    "department_id": 60
+  },
+  {
+    "id": 7,
+    "first_name": "Moshe",
+    "last_name": "Agor",
+    "email": "MGOR",
+    "phone_number": 5151234573,
+    "hire_date": "2022-06-17",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 105,
+    "department_id": 60
+  },
+  {
+    "id": 8,
+    "first_name": "Daniel",
+    "last_name": "Cohen",
+    "email": "DOHEN",
+    "phone_number": 5151234574,
+    "hire_date": "2022-06-17",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 105,
+    "department_id": 60
+  },
+  {
+    "id": 9,
+    "first_name": "Inbal",
+    "last_name": "Amor",
+    "email": "IMOR",
+    "phone_number": 5151234575,
+    "hire_date": "2013-08-23",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 104,
+    "department_id": 60
+  },
+  {
+    "id": 10,
+    "first_name": "Roy",
+    "last_name": "Hamen",
+    "email": "RAMEN",
+    "phone_number": 5151234576,
+    "hire_date": "2018-02-12",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 105,
+    "department_id": 60
+  }
+]
+2022-06-17 19:05:43,112 [INFO] Average worker salary is : 9780.0
+2022-06-17 19:05:43,112 [INFO] Current date is - 2022-06-17
+2022-06-17 19:05:43,112 [INFO] filtered workers : [
+  {
+    "id": 1,
+    "first_name": "Steven",
+    "last_name": "King",
+    "email": "SKING",
+    "phone_number": 5151234567,
+    "hire_date": "2021-06-17",
+    "job_id": "AD_PRES",
+    "salary": 24000,
+    "commission_pct": 0,
+    "manager_id": 0,
+    "department_id": 0
+  },
+  {
+    "id": 2,
+    "first_name": "Neena",
+    "last_name": "Kochhar",
+    "email": "NKOCHHAR",
+    "phone_number": 5151234568,
+    "hire_date": "2020-06-17",
+    "job_id": "AD_VP",
+    "salary": 17000,
+    "commission_pct": 0,
+    "manager_id": 100,
+    "department_id": 90
+  },
+  {
+    "id": 5,
+    "first_name": "Bruce",
+    "last_name": "Ernst",
+    "email": "BERNST",
+    "phone_number": 5151234571,
+    "hire_date": "2016-07-17",
+    "job_id": "IT_PROG",
+    "salary": 6000,
+    "commission_pct": 0,
+    "manager_id": 103,
+    "department_id": 60
+  },
+  {
+    "id": 9,
+    "first_name": "Inbal",
+    "last_name": "Amor",
+    "email": "IMOR",
+    "phone_number": 5151234575,
+    "hire_date": "2013-08-23",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 104,
+    "department_id": 60
+  }
+]
+2022-06-17 19:06:11,740 [INFO] [
+  {
+    "id": 1,
+    "first_name": "Steven",
+    "last_name": "King",
+    "email": "SKING",
+    "phone_number": 5151234567,
+    "hire_date": "2021-06-17",
+    "job_id": "AD_PRES",
+    "salary": 24000,
+    "commission_pct": 0,
+    "manager_id": 0,
+    "department_id": 0
+  },
+  {
+    "id": 2,
+    "first_name": "Neena",
+    "last_name": "Kochhar",
+    "email": "NKOCHHAR",
+    "phone_number": 5151234568,
+    "hire_date": "2020-06-17",
+    "job_id": "AD_VP",
+    "salary": 17000,
+    "commission_pct": 0,
+    "manager_id": 100,
+    "department_id": 90
+  },
+  {
+    "id": 3,
+    "first_name": "Lex",
+    "last_name": "De Haan",
+    "email": "LDEHAAN",
+    "phone_number": 5151234569,
+    "hire_date": "2022-06-17",
+    "job_id": "AD_VP",
+    "salary": 17000,
+    "commission_pct": 0,
+    "manager_id": 100,
+    "department_id": 90
+  },
+  {
+    "id": 4,
+    "first_name": "Alexander",
+    "last_name": "Hunold",
+    "email": "AHUNOLD",
+    "phone_number": 5151234570,
+    "hire_date": "2022-06-17",
+    "job_id": "IT_PROG",
+    "salary": 9000,
+    "commission_pct": 0,
+    "manager_id": 102,
+    "department_id": 60
+  },
+  {
+    "id": 5,
+    "first_name": "Bruce",
+    "last_name": "Ernst",
+    "email": "BERNST",
+    "phone_number": 5151234571,
+    "hire_date": "2016-07-17",
+    "job_id": "IT_PROG",
+    "salary": 6000,
+    "commission_pct": 0,
+    "manager_id": 103,
+    "department_id": 60
+  },
+  {
+    "id": 6,
+    "first_name": "David",
+    "last_name": "Austin",
+    "email": "DAUSTIN",
+    "phone_number": 5151234572,
+    "hire_date": "1955-01-21",
+    "job_id": "IT_PROG",
+    "salary": 4800,
+    "commission_pct": 0,
+    "manager_id": 103,
+    "department_id": 60
+  },
+  {
+    "id": 7,
+    "first_name": "Moshe",
+    "last_name": "Agor",
+    "email": "MGOR",
+    "phone_number": 5151234573,
+    "hire_date": "2022-06-17",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 105,
+    "department_id": 60
+  },
+  {
+    "id": 8,
+    "first_name": "Daniel",
+    "last_name": "Cohen",
+    "email": "DOHEN",
+    "phone_number": 5151234574,
+    "hire_date": "2022-06-17",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 105,
+    "department_id": 60
+  },
+  {
+    "id": 9,
+    "first_name": "Inbal",
+    "last_name": "Amor",
+    "email": "IMOR",
+    "phone_number": 5151234575,
+    "hire_date": "2013-08-23",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 104,
+    "department_id": 60
+  },
+  {
+    "id": 10,
+    "first_name": "Roy",
+    "last_name": "Hamen",
+    "email": "RAMEN",
+    "phone_number": 5151234576,
+    "hire_date": "2018-02-12",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 105,
+    "department_id": 60
+  }
+]
+2022-06-17 19:06:11,740 [INFO] Average worker salary is : 9780.0
+2022-06-17 19:06:11,740 [INFO] Current date is - 2022-06-17
+2022-06-17 19:06:11,740 [INFO] filtered workers : 
+[
+  {
+    "id": 1,
+    "first_name": "Steven",
+    "last_name": "King",
+    "email": "SKING",
+    "phone_number": 5151234567,
+    "hire_date": "2021-06-17",
+    "job_id": "AD_PRES",
+    "salary": 24000,
+    "commission_pct": 0,
+    "manager_id": 0,
+    "department_id": 0
+  },
+  {
+    "id": 2,
+    "first_name": "Neena",
+    "last_name": "Kochhar",
+    "email": "NKOCHHAR",
+    "phone_number": 5151234568,
+    "hire_date": "2020-06-17",
+    "job_id": "AD_VP",
+    "salary": 17000,
+    "commission_pct": 0,
+    "manager_id": 100,
+    "department_id": 90
+  },
+  {
+    "id": 5,
+    "first_name": "Bruce",
+    "last_name": "Ernst",
+    "email": "BERNST",
+    "phone_number": 5151234571,
+    "hire_date": "2016-07-17",
+    "job_id": "IT_PROG",
+    "salary": 6000,
+    "commission_pct": 0,
+    "manager_id": 103,
+    "department_id": 60
+  },
+  {
+    "id": 9,
+    "first_name": "Inbal",
+    "last_name": "Amor",
+    "email": "IMOR",
+    "phone_number": 5151234575,
+    "hire_date": "2013-08-23",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 104,
+    "department_id": 60
+  }
+]
+2022-06-17 19:06:11,749 [INFO] Saving to a text file.
+2022-06-17 19:06:58,643 [INFO]  List of workers : 
+[
+  {
+    "id": 1,
+    "first_name": "Steven",
+    "last_name": "King",
+    "email": "SKING",
+    "phone_number": 5151234567,
+    "hire_date": "2021-06-17",
+    "job_id": "AD_PRES",
+    "salary": 24000,
+    "commission_pct": 0,
+    "manager_id": 0,
+    "department_id": 0
+  },
+  {
+    "id": 2,
+    "first_name": "Neena",
+    "last_name": "Kochhar",
+    "email": "NKOCHHAR",
+    "phone_number": 5151234568,
+    "hire_date": "2020-06-17",
+    "job_id": "AD_VP",
+    "salary": 17000,
+    "commission_pct": 0,
+    "manager_id": 100,
+    "department_id": 90
+  },
+  {
+    "id": 3,
+    "first_name": "Lex",
+    "last_name": "De Haan",
+    "email": "LDEHAAN",
+    "phone_number": 5151234569,
+    "hire_date": "2022-06-17",
+    "job_id": "AD_VP",
+    "salary": 17000,
+    "commission_pct": 0,
+    "manager_id": 100,
+    "department_id": 90
+  },
+  {
+    "id": 4,
+    "first_name": "Alexander",
+    "last_name": "Hunold",
+    "email": "AHUNOLD",
+    "phone_number": 5151234570,
+    "hire_date": "2022-06-17",
+    "job_id": "IT_PROG",
+    "salary": 9000,
+    "commission_pct": 0,
+    "manager_id": 102,
+    "department_id": 60
+  },
+  {
+    "id": 5,
+    "first_name": "Bruce",
+    "last_name": "Ernst",
+    "email": "BERNST",
+    "phone_number": 5151234571,
+    "hire_date": "2016-07-17",
+    "job_id": "IT_PROG",
+    "salary": 6000,
+    "commission_pct": 0,
+    "manager_id": 103,
+    "department_id": 60
+  },
+  {
+    "id": 6,
+    "first_name": "David",
+    "last_name": "Austin",
+    "email": "DAUSTIN",
+    "phone_number": 5151234572,
+    "hire_date": "1955-01-21",
+    "job_id": "IT_PROG",
+    "salary": 4800,
+    "commission_pct": 0,
+    "manager_id": 103,
+    "department_id": 60
+  },
+  {
+    "id": 7,
+    "first_name": "Moshe",
+    "last_name": "Agor",
+    "email": "MGOR",
+    "phone_number": 5151234573,
+    "hire_date": "2022-06-17",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 105,
+    "department_id": 60
+  },
+  {
+    "id": 8,
+    "first_name": "Daniel",
+    "last_name": "Cohen",
+    "email": "DOHEN",
+    "phone_number": 5151234574,
+    "hire_date": "2022-06-17",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 105,
+    "department_id": 60
+  },
+  {
+    "id": 9,
+    "first_name": "Inbal",
+    "last_name": "Amor",
+    "email": "IMOR",
+    "phone_number": 5151234575,
+    "hire_date": "2013-08-23",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 104,
+    "department_id": 60
+  },
+  {
+    "id": 10,
+    "first_name": "Roy",
+    "last_name": "Hamen",
+    "email": "RAMEN",
+    "phone_number": 5151234576,
+    "hire_date": "2018-02-12",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 105,
+    "department_id": 60
+  }
+]
+2022-06-17 19:06:58,644 [INFO] Average worker salary is : 9780.0
+2022-06-17 19:06:58,644 [INFO] Current date is - 2022-06-17
+2022-06-17 19:06:58,644 [INFO] filtered workers : 
+[
+  {
+    "id": 1,
+    "first_name": "Steven",
+    "last_name": "King",
+    "email": "SKING",
+    "phone_number": 5151234567,
+    "hire_date": "2021-06-17",
+    "job_id": "AD_PRES",
+    "salary": 24000,
+    "commission_pct": 0,
+    "manager_id": 0,
+    "department_id": 0
+  },
+  {
+    "id": 2,
+    "first_name": "Neena",
+    "last_name": "Kochhar",
+    "email": "NKOCHHAR",
+    "phone_number": 5151234568,
+    "hire_date": "2020-06-17",
+    "job_id": "AD_VP",
+    "salary": 17000,
+    "commission_pct": 0,
+    "manager_id": 100,
+    "department_id": 90
+  },
+  {
+    "id": 5,
+    "first_name": "Bruce",
+    "last_name": "Ernst",
+    "email": "BERNST",
+    "phone_number": 5151234571,
+    "hire_date": "2016-07-17",
+    "job_id": "IT_PROG",
+    "salary": 6000,
+    "commission_pct": 0,
+    "manager_id": 103,
+    "department_id": 60
+  },
+  {
+    "id": 9,
+    "first_name": "Inbal",
+    "last_name": "Amor",
+    "email": "IMOR",
+    "phone_number": 5151234575,
+    "hire_date": "2013-08-23",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 104,
+    "department_id": 60
+  }
+]
+2022-06-17 19:06:58,660 [INFO] Saving to a text file.
+2022-06-17 19:07:29,470 [INFO]  List of workers : 
+[
+  {
+    "id": 1,
+    "first_name": "Steven",
+    "last_name": "King",
+    "email": "SKING",
+    "phone_number": 5151234567,
+    "hire_date": "2021-06-17",
+    "job_id": "AD_PRES",
+    "salary": 24000,
+    "commission_pct": 0,
+    "manager_id": 0,
+    "department_id": 0
+  },
+  {
+    "id": 2,
+    "first_name": "Neena",
+    "last_name": "Kochhar",
+    "email": "NKOCHHAR",
+    "phone_number": 5151234568,
+    "hire_date": "2020-06-17",
+    "job_id": "AD_VP",
+    "salary": 17000,
+    "commission_pct": 0,
+    "manager_id": 100,
+    "department_id": 90
+  },
+  {
+    "id": 3,
+    "first_name": "Lex",
+    "last_name": "De Haan",
+    "email": "LDEHAAN",
+    "phone_number": 5151234569,
+    "hire_date": "2022-06-17",
+    "job_id": "AD_VP",
+    "salary": 17000,
+    "commission_pct": 0,
+    "manager_id": 100,
+    "department_id": 90
+  },
+  {
+    "id": 4,
+    "first_name": "Alexander",
+    "last_name": "Hunold",
+    "email": "AHUNOLD",
+    "phone_number": 5151234570,
+    "hire_date": "2022-06-17",
+    "job_id": "IT_PROG",
+    "salary": 9000,
+    "commission_pct": 0,
+    "manager_id": 102,
+    "department_id": 60
+  },
+  {
+    "id": 5,
+    "first_name": "Bruce",
+    "last_name": "Ernst",
+    "email": "BERNST",
+    "phone_number": 5151234571,
+    "hire_date": "2016-07-17",
+    "job_id": "IT_PROG",
+    "salary": 6000,
+    "commission_pct": 0,
+    "manager_id": 103,
+    "department_id": 60
+  },
+  {
+    "id": 6,
+    "first_name": "David",
+    "last_name": "Austin",
+    "email": "DAUSTIN",
+    "phone_number": 5151234572,
+    "hire_date": "1955-01-21",
+    "job_id": "IT_PROG",
+    "salary": 4800,
+    "commission_pct": 0,
+    "manager_id": 103,
+    "department_id": 60
+  },
+  {
+    "id": 7,
+    "first_name": "Moshe",
+    "last_name": "Agor",
+    "email": "MGOR",
+    "phone_number": 5151234573,
+    "hire_date": "2022-06-17",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 105,
+    "department_id": 60
+  },
+  {
+    "id": 8,
+    "first_name": "Daniel",
+    "last_name": "Cohen",
+    "email": "DOHEN",
+    "phone_number": 5151234574,
+    "hire_date": "2022-06-17",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 105,
+    "department_id": 60
+  },
+  {
+    "id": 9,
+    "first_name": "Inbal",
+    "last_name": "Amor",
+    "email": "IMOR",
+    "phone_number": 5151234575,
+    "hire_date": "2013-08-23",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 104,
+    "department_id": 60
+  },
+  {
+    "id": 10,
+    "first_name": "Roy",
+    "last_name": "Hamen",
+    "email": "RAMEN",
+    "phone_number": 5151234576,
+    "hire_date": "2018-02-12",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 105,
+    "department_id": 60
+  }
+]
+2022-06-17 19:07:29,470 [INFO] Average worker salary is : 9780.0
+2022-06-17 19:07:29,470 [INFO] Current date is - 2022-06-17
+2022-06-17 19:07:29,470 [INFO] filtered workers : 
+[
+  {
+    "id": 1,
+    "first_name": "Steven",
+    "last_name": "King",
+    "email": "SKING",
+    "phone_number": 5151234567,
+    "hire_date": "2021-06-17",
+    "job_id": "AD_PRES",
+    "salary": 24000,
+    "commission_pct": 0,
+    "manager_id": 0,
+    "department_id": 0
+  },
+  {
+    "id": 2,
+    "first_name": "Neena",
+    "last_name": "Kochhar",
+    "email": "NKOCHHAR",
+    "phone_number": 5151234568,
+    "hire_date": "2020-06-17",
+    "job_id": "AD_VP",
+    "salary": 17000,
+    "commission_pct": 0,
+    "manager_id": 100,
+    "department_id": 90
+  },
+  {
+    "id": 5,
+    "first_name": "Bruce",
+    "last_name": "Ernst",
+    "email": "BERNST",
+    "phone_number": 5151234571,
+    "hire_date": "2016-07-17",
+    "job_id": "IT_PROG",
+    "salary": 6000,
+    "commission_pct": 0,
+    "manager_id": 103,
+    "department_id": 60
+  },
+  {
+    "id": 9,
+    "first_name": "Inbal",
+    "last_name": "Amor",
+    "email": "IMOR",
+    "phone_number": 5151234575,
+    "hire_date": "2013-08-23",
+    "job_id": "IT_PROG",
+    "salary": 5000,
+    "commission_pct": 0,
+    "manager_id": 104,
+    "department_id": 60
+  }
+]
+2022-06-17 19:07:29,476 [INFO] Saving to a text file.

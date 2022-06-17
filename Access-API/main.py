@@ -1,6 +1,17 @@
 from datetime import date
 import requests
 import json
+import logging
+import sys
+
+# Create Logger
+logging.basicConfig(level=logging.INFO,
+                    format="%(asctime)s [%(levelname)s] %(message)s",
+                    handlers=[
+                        logging.FileHandler(filename="info.log"),
+                        logging.StreamHandler(sys.stdout)
+                    ])
+logger = logging.getLogger()
 
 
 def project():
@@ -11,7 +22,7 @@ def project():
     # Convert text into json format
     workers = json.loads(data.text)
     data_json = json.dumps(workers, indent=2)
-    print(data_json)
+    logger.info(f" List of workers : \n{data_json}")
 
     # Get average worker salary
     total_salary = 0
@@ -21,13 +32,13 @@ def project():
         counter += 1
         total_salary += person["salary"]
         average_salary = total_salary / counter
-    print(f"Average worker salary is : {average_salary}")
+    logger.info(f"Average worker salary is : {average_salary}")
 
     # Match current date with workers 'hire_date'
     today = date.today()
     year = today.strftime("%Y")
     month = today.strftime("%m")
-    print(f"Current date is - {today}")
+    logger.info(f"Current date is - {today}")
 
     worker_detail = []
     for person in workers:
@@ -46,12 +57,12 @@ def project():
 
     # prettify and save to a text file
     save = json.dumps(information, indent=2)
-    print(save)
+    logger.info(f"filtered workers : \n{save}")
+
     # empty strings are "falsy" - if true write
-    print('\n')
     if save:
         with open('reports.txt', 'w+') as f:
-            print("Saving to a text file")
+            logger.info('Saving to a text file.')
             f.writelines(save)
 
 
