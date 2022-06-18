@@ -1,165 +1,209 @@
-2022-06-18 09:44:40,382 [INFO] List of workers : 
+2022-06-19 01:28:04,016 [INFO] List of workers : 
 [
   {
     "id": 1,
-    "first_name": "Steven",
+    "url": "http://127.0.0.1:8000/workers/1/",
+    "name": "Steven",
     "last_name": "King",
-    "email": "SKING",
+    "hire_date": "2022-02-13",
+    "email": "Sking@gmail.com",
     "phone_number": 5151234567,
-    "hire_date": "2021-06-17",
-    "job_id": "AD_PRES",
-    "salary": 24000,
-    "commission_pct": 0,
-    "manager_id": 0,
-    "department_id": 0
+    "job": "System Administrator",
+    "speciality": [
+      "http://127.0.0.1:8000/speciality/1/",
+      "http://127.0.0.1:8000/speciality/2/"
+    ],
+    "salary": 13000,
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
   },
   {
     "id": 2,
-    "first_name": "Neena",
-    "last_name": "Kochhar",
-    "email": "NKOCHHAR",
-    "phone_number": 5151234568,
-    "hire_date": "2020-06-17",
-    "job_id": "AD_VP",
+    "url": "http://127.0.0.1:8000/workers/2/",
+    "name": "ellie",
+    "last_name": "hodayev",
+    "hire_date": "2021-03-19",
+    "email": "zenmyx@gmail.com",
+    "phone_number": 502461700,
+    "job": "DevOps",
+    "speciality": [
+      "http://127.0.0.1:8000/speciality/1/",
+      "http://127.0.0.1:8000/speciality/4/",
+      "http://127.0.0.1:8000/speciality/5/",
+      "http://127.0.0.1:8000/speciality/8/",
+      "http://127.0.0.1:8000/speciality/11/"
+    ],
     "salary": 17000,
-    "commission_pct": 0,
-    "manager_id": 100,
-    "department_id": 90
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
   },
   {
     "id": 3,
-    "first_name": "Lex",
-    "last_name": "De Haan",
-    "email": "LDEHAAN",
-    "phone_number": 5151234569,
-    "hire_date": "2022-06-17",
-    "job_id": "AD_VP",
+    "url": "http://127.0.0.1:8000/workers/3/",
+    "name": "Neena",
+    "last_name": "Kochhar",
+    "hire_date": "2020-02-21",
+    "email": "Nkochhar@gmail.com",
+    "phone_number": 5151234568,
+    "job": "DevOps",
+    "speciality": [
+      "http://127.0.0.1:8000/speciality/8/"
+    ],
     "salary": 17000,
-    "commission_pct": 0,
-    "manager_id": 100,
-    "department_id": 90
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
   },
   {
     "id": 4,
-    "first_name": "Alexander",
-    "last_name": "Hunold",
-    "email": "AHUNOLD",
-    "phone_number": 5151234570,
-    "hire_date": "2022-06-17",
-    "job_id": "IT_PROG",
-    "salary": 9000,
-    "commission_pct": 0,
-    "manager_id": 102,
-    "department_id": 60
+    "url": "http://127.0.0.1:8000/workers/4/",
+    "name": "Lex",
+    "last_name": "De Haan",
+    "hire_date": "2022-04-19",
+    "email": "Ldehaan@gmail.com",
+    "phone_number": 5151234569,
+    "job": "Front Desk Office Manager",
+    "speciality": [
+      "http://127.0.0.1:8000/speciality/9/",
+      "http://127.0.0.1:8000/speciality/10/",
+      "http://127.0.0.1:8000/speciality/11/"
+    ],
+    "salary": 6000,
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
   },
   {
     "id": 5,
-    "first_name": "Bruce",
-    "last_name": "Ernst",
-    "email": "BERNST",
-    "phone_number": 5151234571,
-    "hire_date": "2016-07-17",
-    "job_id": "IT_PROG",
-    "salary": 6000,
-    "commission_pct": 0,
-    "manager_id": 103,
-    "department_id": 60
+    "url": "http://127.0.0.1:8000/workers/5/",
+    "name": "Alexander",
+    "last_name": "Hunold",
+    "hire_date": "2021-03-10",
+    "email": "Ahunold@gmail.com",
+    "phone_number": 5151234569,
+    "job": "Software Engineer",
+    "speciality": [
+      "http://127.0.0.1:8000/speciality/1/",
+      "http://127.0.0.1:8000/speciality/2/",
+      "http://127.0.0.1:8000/speciality/3/"
+    ],
+    "salary": 9000,
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
   },
   {
     "id": 6,
-    "first_name": "David",
-    "last_name": "Austin",
-    "email": "DAUSTIN",
-    "phone_number": 5151234572,
-    "hire_date": "1955-01-21",
-    "job_id": "IT_PROG",
-    "salary": 4800,
-    "commission_pct": 0,
-    "manager_id": 103,
-    "department_id": 60
+    "url": "http://127.0.0.1:8000/workers/6/",
+    "name": "Roy",
+    "last_name": "Hamen",
+    "hire_date": "2022-04-19",
+    "email": "RAMEN@gmail.com",
+    "phone_number": 5151234576,
+    "job": "Software Engineer",
+    "speciality": [
+      "http://127.0.0.1:8000/speciality/1/",
+      "http://127.0.0.1:8000/speciality/2/",
+      "http://127.0.0.1:8000/speciality/3/"
+    ],
+    "salary": 5000,
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
   },
   {
     "id": 7,
-    "first_name": "Moshe",
-    "last_name": "Agor",
-    "email": "MGOR",
-    "phone_number": 5151234573,
-    "hire_date": "2022-06-17",
-    "job_id": "IT_PROG",
-    "salary": 5000,
-    "commission_pct": 0,
-    "manager_id": 105,
-    "department_id": 60
+    "url": "http://127.0.0.1:8000/workers/7/",
+    "name": "Inbal",
+    "last_name": "Amor",
+    "hire_date": "1996-07-17",
+    "email": "Imor@gmail.com",
+    "phone_number": 5151234575,
+    "job": "CEO",
+    "speciality": [
+      "http://127.0.0.1:8000/speciality/11/"
+    ],
+    "salary": 24000,
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
   },
   {
     "id": 8,
-    "first_name": "Daniel",
+    "url": "http://127.0.0.1:8000/workers/8/",
+    "name": "Daniel",
     "last_name": "Cohen",
-    "email": "DOHEN",
+    "hire_date": "2021-01-03",
+    "email": "Dohen@gmail.com",
     "phone_number": 5151234574,
-    "hire_date": "2022-06-17",
-    "job_id": "IT_PROG",
+    "job": "Quality Assurance",
+    "speciality": [
+      "http://127.0.0.1:8000/speciality/7/"
+    ],
     "salary": 5000,
-    "commission_pct": 0,
-    "manager_id": 105,
-    "department_id": 60
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
   },
   {
     "id": 9,
-    "first_name": "Inbal",
-    "last_name": "Amor",
-    "email": "IMOR",
-    "phone_number": 5151234575,
-    "hire_date": "2013-08-23",
-    "job_id": "IT_PROG",
-    "salary": 5000,
-    "commission_pct": 0,
-    "manager_id": 104,
-    "department_id": 60
+    "url": "http://127.0.0.1:8000/workers/9/",
+    "name": "David",
+    "last_name": "Austin",
+    "hire_date": "2022-06-13",
+    "email": "Baustin@gmail.com",
+    "phone_number": 5151234574,
+    "job": "Quality Assurance",
+    "speciality": [
+      "http://127.0.0.1:8000/speciality/7/"
+    ],
+    "salary": 4800,
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
   },
   {
     "id": 10,
-    "first_name": "Roy",
-    "last_name": "Hamen",
-    "email": "RAMEN",
-    "phone_number": 5151234576,
-    "hire_date": "2018-02-12",
-    "job_id": "IT_PROG",
-    "salary": 5000,
-    "commission_pct": 0,
-    "manager_id": 105,
-    "department_id": 60
+    "url": "http://127.0.0.1:8000/workers/10/",
+    "name": "Bruce",
+    "last_name": "Ernst",
+    "hire_date": "2022-06-19",
+    "email": "Bersnt@gmail.com",
+    "phone_number": 5151234571,
+    "job": "Site Reliability Engineering",
+    "speciality": [
+      "http://127.0.0.1:8000/speciality/4/",
+      "http://127.0.0.1:8000/speciality/5/",
+      "http://127.0.0.1:8000/speciality/6/"
+    ],
+    "salary": 9000,
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
   }
 ]
-2022-06-18 09:44:40,382 [INFO] Average worker salary is : 9780.0
-2022-06-18 09:44:40,382 [INFO] Current date is - 2022-06-18
-2022-06-18 09:44:40,382 [INFO] filtered workers : 
+2022-06-19 01:28:04,032 [INFO] Average worker salary is : 10980.0
+2022-06-19 01:28:04,032 [INFO] Current date is - 2022-06-19
+2022-06-19 01:28:04,032 [INFO] filtered workers : 
 [
   {
-    "id": 5,
-    "first_name": "Bruce",
-    "last_name": "Ernst",
-    "email": "BERNST",
-    "phone_number": 5151234571,
-    "hire_date": "2016-07-17",
-    "job_id": "IT_PROG",
-    "salary": 6000,
-    "commission_pct": 0,
-    "manager_id": 103,
-    "department_id": 60
-  },
-  {
-    "id": 9,
-    "first_name": "Inbal",
+    "id": 7,
+    "url": "http://127.0.0.1:8000/workers/7/",
+    "name": "Inbal",
     "last_name": "Amor",
-    "email": "IMOR",
+    "hire_date": "1996-07-17",
+    "email": "Imor@gmail.com",
     "phone_number": 5151234575,
-    "hire_date": "2013-08-23",
-    "job_id": "IT_PROG",
-    "salary": 5000,
-    "commission_pct": 0,
-    "manager_id": 104,
-    "department_id": 60
+    "job": "CEO",
+    "speciality": [
+      "http://127.0.0.1:8000/speciality/11/"
+    ],
+    "salary": 24000,
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
   }
 ]
-2022-06-18 09:44:40,383 [INFO] Saving to a text file.
+2022-06-19 01:28:04,033 [INFO] Saving to a text file.

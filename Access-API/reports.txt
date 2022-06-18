@@ -1,28 +1,19 @@
 [
   {
-    "id": 5,
-    "first_name": "Bruce",
-    "last_name": "Ernst",
-    "email": "BERNST",
-    "phone_number": 5151234571,
-    "hire_date": "2016-07-17",
-    "job_id": "IT_PROG",
-    "salary": 6000,
-    "commission_pct": 0,
-    "manager_id": 103,
-    "department_id": 60
-  },
-  {
-    "id": 9,
-    "first_name": "Inbal",
+    "id": 7,
+    "url": "http://127.0.0.1:8000/workers/7/",
+    "name": "Inbal",
     "last_name": "Amor",
-    "email": "IMOR",
+    "hire_date": "1996-07-17",
+    "email": "Imor@gmail.com",
     "phone_number": 5151234575,
-    "hire_date": "2013-08-23",
-    "job_id": "IT_PROG",
-    "salary": 5000,
-    "commission_pct": 0,
-    "manager_id": 104,
-    "department_id": 60
+    "job": "CEO",
+    "speciality": [
+      "http://127.0.0.1:8000/speciality/11/"
+    ],
+    "salary": 24000,
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
   }
 ]
