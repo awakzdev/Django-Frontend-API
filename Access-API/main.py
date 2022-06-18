@@ -34,7 +34,7 @@ def project():
         average_salary = total_salary / counter
     logger.info(f"Average worker salary is : {average_salary}")
 
-    # Match current date with workers 'hire_date'
+    # Create dates
     today = date.today()
     year = today.strftime("%Y")
     month = today.strftime("%m")
@@ -48,7 +48,6 @@ def project():
             worker_detail += [person['id']]
 
     # Grab workers details - if he works more than a year
-    information = {}
     reported_workers = []
     for person in workers:
         if person['id'] in worker_detail:

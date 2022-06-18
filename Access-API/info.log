@@ -1,4 +1,4 @@
-2022-06-19 01:28:04,016 [INFO] List of workers : 
+2022-06-19 01:34:36,576 [INFO] List of workers : 
 [
   {
     "id": 1,
@@ -184,9 +184,9 @@
     "department_id": null
   }
 ]
-2022-06-19 01:28:04,032 [INFO] Average worker salary is : 10980.0
-2022-06-19 01:28:04,032 [INFO] Current date is - 2022-06-19
-2022-06-19 01:28:04,032 [INFO] filtered workers : 
+2022-06-19 01:34:36,592 [INFO] Average worker salary is : 10980.0
+2022-06-19 01:34:36,592 [INFO] Current date is - 2022-06-19
+2022-06-19 01:34:36,592 [INFO] filtered workers : 
 [
   {
     "id": 7,
@@ -206,4 +206,4 @@
     "department_id": null
   }
 ]
-2022-06-19 01:28:04,033 [INFO] Saving to a text file.
+2022-06-19 01:34:36,593 [INFO] Saving to a text file.
