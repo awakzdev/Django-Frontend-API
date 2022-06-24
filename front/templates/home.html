@@ -13,6 +13,13 @@
         <div class="container-fluid p-2 bg-primary text-white text-center">
             <h1>Users</h1>
             <a style="background: black;" href="http://localhost:8000/api/">Check our API here</a>
+            <form action="/review">
+            <button id="stat-btn" class="btn btn-warning">Execute Python</button>
+            {% if messages %}
+            {% for message in messages %} {% if message.tags %}  <script>alert("{{ message }}")</script> {% endif %}
+            {% endfor %}
+            {% endif %}
+        </form>
         </div>
         <div class="container mt-5">
             <table class="table">

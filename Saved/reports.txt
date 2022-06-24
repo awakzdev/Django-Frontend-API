@@ -1,3 +1,6 @@
+This will contain all the workers whose salary is below average and are working for over a year
+Average worker salary is : 10980.0
+Current date - 2022-06-24
 [
   {
     "id": 7,

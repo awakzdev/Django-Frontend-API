@@ -13,7 +13,7 @@ class Worker(models.Model):
     last_name = models.CharField(max_length=100)
     email = models.CharField(max_length=100)
     phone_number = models.IntegerField(default=0)
-    hire_date = models.DateField(auto_now=True)
+    hire_date = models.DateField()
     job = models.CharField(max_length=100)
     speciality = models.ManyToManyField(Speciality, blank=True)
     salary = models.IntegerField(default=0)
