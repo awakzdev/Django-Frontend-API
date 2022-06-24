@@ -16,7 +16,7 @@ logger = logging.getLogger()
 
 def project():
     # Grab API from Django APP
-    url = 'http://127.0.0.1:8000/workers/'
+    url = 'http://127.0.0.1:8000/api/workers/'
     data = requests.get(url)
 
     # Convert text into json format

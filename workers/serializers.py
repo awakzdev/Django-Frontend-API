@@ -5,7 +5,7 @@ from .models import Worker, Speciality
 class SpecialitySerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Speciality
-        fields = ['id', 'url', 'name']
+        fields = ['id', 'url', 'paradigm']
 
 
 class WorkerSerializer(serializers.HyperlinkedModelSerializer):
