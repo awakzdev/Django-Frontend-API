@@ -4,6 +4,9 @@ import requests
 
 def home(request):
     response = requests.get('http://127.0.0.1:8000/api/workers/')
-    worker = response.json()
+    r_response = requests.get('http://127.0.0.1:8000/api/speciality/')
 
-    return render(request, "home.html", {'users': worker})
+    users = response.json()
+    speciality = r_response.json()
+
+    return render(request, "home.html", context={'users': users, 'speciality': speciality})
