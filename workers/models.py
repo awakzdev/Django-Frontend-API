@@ -2,10 +2,10 @@ from django.db import models
 
 
 class Speciality(models.Model):
-    paradigm = models.CharField(max_length=50)
+    name = models.CharField(max_length=50)
 
     def __str__(self):
-        return self.paradigm
+        return self.name
 
 
 class Worker(models.Model):

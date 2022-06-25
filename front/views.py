@@ -51,7 +51,7 @@ def review(request):
     for person in workers:
         worker_year = person['hire_date'][0:4]
         worker_month = person['hire_date'][5:7]
-        if year > worker_year and int(month) - 12 + int(worker_month) > 0:
+        if year > worker_year and int(month) > int(worker_month):
             worker_detail += [person['id']]
 
     # Grab workers details - if he works more than a year

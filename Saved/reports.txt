@@ -1,20 +1,114 @@
 This will contain all the workers whose salary is below average and are working for over a year
 Average worker salary is : 10980.0
-Current date - 2022-06-24
+Current date - 2022-06-25
 [
   {
-    "id": 7,
-    "url": "http://127.0.0.1:8000/api/workers/7/",
-    "name": "Inbal",
-    "last_name": "Amor",
-    "hire_date": "1996-07-17",
-    "email": "Imor@gmail.com",
-    "phone_number": 5151234575,
-    "job": "CEO",
+    "id": 1,
+    "url": "http://127.0.0.1:8000/api/workers/1/",
+    "name": "Steven",
+    "last_name": "King",
+    "hire_date": "2020-02-13",
+    "email": "Sking@gmail.com",
+    "phone_number": 5151234567,
+    "job": "System Administrator",
     "speciality": [
+      "http://127.0.0.1:8000/api/speciality/1/",
+      "http://127.0.0.1:8000/api/speciality/2/"
+    ],
+    "salary": 13000,
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
+  },
+  {
+    "id": 2,
+    "url": "http://127.0.0.1:8000/api/workers/2/",
+    "name": "ellie",
+    "last_name": "hodayev",
+    "hire_date": "2021-03-19",
+    "email": "zenmyx@gmail.com",
+    "phone_number": 502461700,
+    "job": "DevOps",
+    "speciality": [
+      "http://127.0.0.1:8000/api/speciality/1/",
+      "http://127.0.0.1:8000/api/speciality/4/",
+      "http://127.0.0.1:8000/api/speciality/5/",
+      "http://127.0.0.1:8000/api/speciality/8/",
       "http://127.0.0.1:8000/api/speciality/11/"
     ],
-    "salary": 24000,
+    "salary": 17000,
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
+  },
+  {
+    "id": 3,
+    "url": "http://127.0.0.1:8000/api/workers/3/",
+    "name": "Neena",
+    "last_name": "Kochhar",
+    "hire_date": "2020-02-21",
+    "email": "Nkochhar@gmail.com",
+    "phone_number": 5151234568,
+    "job": "DevOps",
+    "speciality": [
+      "http://127.0.0.1:8000/api/speciality/8/"
+    ],
+    "salary": 17000,
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
+  },
+  {
+    "id": 5,
+    "url": "http://127.0.0.1:8000/api/workers/5/",
+    "name": "Alexander",
+    "last_name": "Hunold",
+    "hire_date": "2021-03-10",
+    "email": "Ahunold@gmail.com",
+    "phone_number": 5151234569,
+    "job": "Software Engineer",
+    "speciality": [
+      "http://127.0.0.1:8000/api/speciality/1/",
+      "http://127.0.0.1:8000/api/speciality/2/",
+      "http://127.0.0.1:8000/api/speciality/3/"
+    ],
+    "salary": 9000,
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
+  },
+  {
+    "id": 6,
+    "url": "http://127.0.0.1:8000/api/workers/6/",
+    "name": "Roy",
+    "last_name": "Hamen",
+    "hire_date": "2012-04-19",
+    "email": "RAMEN@gmail.com",
+    "phone_number": 5151234576,
+    "job": "Software Engineer",
+    "speciality": [
+      "http://127.0.0.1:8000/api/speciality/1/",
+      "http://127.0.0.1:8000/api/speciality/2/",
+      "http://127.0.0.1:8000/api/speciality/3/"
+    ],
+    "salary": 5000,
+    "commission_pct": null,
+    "manager_id": null,
+    "department_id": null
+  },
+  {
+    "id": 8,
+    "url": "http://127.0.0.1:8000/api/workers/8/",
+    "name": "Daniel",
+    "last_name": "Cohen",
+    "hire_date": "2021-01-03",
+    "email": "Dohen@gmail.com",
+    "phone_number": 5151234574,
+    "job": "Quality Assurance",
+    "speciality": [
+      "http://127.0.0.1:8000/api/speciality/7/"
+    ],
+    "salary": 5000,
     "commission_pct": null,
     "manager_id": null,
     "department_id": null
