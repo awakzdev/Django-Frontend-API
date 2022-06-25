@@ -29,7 +29,7 @@ def review(request):
     # Convert text into json format
     workers = json.loads(data.text)
     data_json = json.dumps(workers, indent=2)
-    print(f"List of workers : \n{data_json}")
+    print(f"List of workers : \n{workers}")
 
     # Get average worker salary
     total_salary = 0
@@ -51,7 +51,7 @@ def review(request):
     for person in workers:
         worker_year = person['hire_date'][0:4]
         worker_month = person['hire_date'][5:7]
-        if year > worker_year and int(month) > int(worker_month):
+        if year > worker_year and int(month) > int(worker_month) and average_salary > person['salary']:
             worker_detail += [person['id']]
 
     # Grab workers details - if he works more than a year
@@ -76,7 +76,7 @@ def review(request):
     if save:
         with open('Saved/reports.txt', 'w+') as f:
             print('Saving to a text file.')
-            f.writelines(f"This will contain all the workers whose salary is below average"
+            f.writelines(f"This will contain a dictionary of all the workers whose salary is below average"
                          f" and are working for over a year\nAverage worker salary is : {average_salary}"
                          f"\nCurrent date - {today}\n{save}")
 
