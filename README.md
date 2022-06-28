@@ -24,6 +24,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
-}```
+}
+```
 
 Added an option to import json into project under /MongoDBasJson
