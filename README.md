@@ -15,7 +15,7 @@
 
 **you can skip this by cloning the sqlite repository**
 
-`git clone --branch litesql https://github.com/awakzdev/Django-Frontend-API`
+`git clone --branch sqlite https://github.com/awakzdev/Django-Frontend-API`
 
 ###### Please follow one of the options below.
 
