@@ -11,11 +11,13 @@
 
 # Configuration
 
-This project has to be configured to be able to run correctly.
+###### This project has to be configured to be able to run properly.
 
 **you can skip this by cloning the sqlite repository**
 
-Please follow one of the options below.
+`git clone --branch sqlite https://github.com/awakzdev/Django-Frontend-API`
+
+###### Please follow one of the options below.
 
 - Add data manually through the /admin panel - you'll have to create a superuser `python3 manage.py createsuperuser`
 
