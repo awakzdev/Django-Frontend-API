@@ -1,7 +1,7 @@
 ## Final Project for Python Course (FullStack)
 
 <p align="center">
-  <img src="https://github.com/awakzdev/Django-Frontend-API/blob/master/logo.png">
+  <img src="https://github.com/awakzdev/Django-Frontend-API/blob/master/image/logo.png">
 </p>
 
 
