@@ -1,12 +1,22 @@
 ## Final Project for Python Course (FullStack)
+
+<p align="center">
+  <img src="https://github.com/awakzdev/Django-Frontend-API/blob/master/logo.png">
+</p>
+
+
 # Installation 
 `git clone https://github.com/awakzdev/Django-Frontend-API ; cd Django-Frontend-API ; pip install -r requirements.txt`
 
 
+# Configuration
 
-# Changing Database
-If at any time you wish to convert back to the original database change the following under `/Ganesha/Settings.py` >
+This project has to be configured to be able to run correctly, to do this please follow either of the instructions below
 
+- Add data to MongoDB from json under /MongoDBasJSON
+
+- Revert back to the original database by changing the following under `/Ganesha/Settings.py` >
+***
 
 ```
 MongoDB
@@ -28,5 +38,3 @@ DATABASES = {
     }
 }
 ```
-
- - Added an option to import json into MongoDB under /MongoDBasJson
