@@ -11,7 +11,8 @@
 
 # Configuration
 
-This project has to be configured to be able to run correctly, to do this please follow either of the instructions below. **alternatively you can skip this by cloning the sqlite repository**
+This project has to be configured to be able to run correctly, to do this please follow either of the instructions below.
+**alternatively you can skip this by cloning the sqlite repository**
 
 - Add data manually through the /admin panel - you'll have to create a superuser `python3 manage.py createsuperuser`
 
