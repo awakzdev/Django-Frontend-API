@@ -10,6 +10,7 @@ If at any time you wish to convert back to the original database change the foll
 
 ```
 MongoDB
+----------------
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
@@ -19,6 +20,7 @@ DATABASES = {
 
 
 Sqlite
+----------------
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
