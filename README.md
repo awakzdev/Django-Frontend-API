@@ -29,4 +29,4 @@ DATABASES = {
 }
 ```
 
- - Added an option to import json into project under /MongoDBasJson
+ - Added an option to import json into MongoDB under /MongoDBasJson
