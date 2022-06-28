@@ -1,41 +1,23 @@
-This will contain a dictionary of all the workers whose salary is below average and are working for over a year
-Average worker salary is : 10980.0
-Current date - 2022-06-25
+All workers whose salary is below average and are employed for over a year will show here.
+Average worker salary is : 15700.0
+Current Date - 2022-06-28
+Current Time - 10:13:22
+--------------------------------------------------------------------------------
 [
   {
-    "id": 5,
-    "url": "http://127.0.0.1:8000/api/workers/5/",
-    "name": "Alexander",
-    "last_name": "Hunold",
-    "hire_date": "2021-03-10",
-    "email": "Ahunold@gmail.com",
-    "phone_number": 5151234569,
-    "job": "Software Engineer",
+    "id": 3,
+    "url": "http://127.0.0.1:8000/api/workers/3/",
+    "name": "Neena",
+    "last_name": "Kochhar",
+    "hire_date": "2020-02-10",
+    "email": "Nkochhar@company.net",
+    "phone_number": 545235818,
+    "job": "Quality Assurance",
     "speciality": [
       "http://127.0.0.1:8000/api/speciality/1/",
-      "http://127.0.0.1:8000/api/speciality/2/",
-      "http://127.0.0.1:8000/api/speciality/3/"
+      "http://127.0.0.1:8000/api/speciality/6/"
     ],
-    "salary": 9000,
-    "commission_pct": null,
-    "manager_id": null,
-    "department_id": null
-  },
-  {
-    "id": 6,
-    "url": "http://127.0.0.1:8000/api/workers/6/",
-    "name": "Roy",
-    "last_name": "Hamen",
-    "hire_date": "2012-04-19",
-    "email": "RAMEN@gmail.com",
-    "phone_number": 5151234576,
-    "job": "Software Engineer",
-    "speciality": [
-      "http://127.0.0.1:8000/api/speciality/1/",
-      "http://127.0.0.1:8000/api/speciality/2/",
-      "http://127.0.0.1:8000/api/speciality/3/"
-    ],
-    "salary": 5000,
+    "salary": 13000,
     "commission_pct": null,
     "manager_id": null,
     "department_id": null
@@ -45,14 +27,15 @@ Current date - 2022-06-25
     "url": "http://127.0.0.1:8000/api/workers/8/",
     "name": "Daniel",
     "last_name": "Cohen",
-    "hire_date": "2021-01-03",
-    "email": "Dohen@gmail.com",
-    "phone_number": 5151234574,
+    "hire_date": "2021-03-01",
+    "email": "Dohen@company.net",
+    "phone_number": 26595198,
     "job": "Quality Assurance",
     "speciality": [
-      "http://127.0.0.1:8000/api/speciality/7/"
+      "http://127.0.0.1:8000/api/speciality/4/",
+      "http://127.0.0.1:8000/api/speciality/5/"
     ],
-    "salary": 5000,
+    "salary": 11000,
     "commission_pct": null,
     "manager_id": null,
     "department_id": null

@@ -17,7 +17,7 @@ def home(request):
 
 
 def review(request):
-    from datetime import date
+    from datetime import date, datetime
     import requests
     import json
     import os
@@ -42,10 +42,12 @@ def review(request):
     print(f"Average worker salary is : {average_salary}")
 
     # Create dates
+    now = datetime.now()
     today = date.today()
     year = today.strftime("%Y")
     month = today.strftime("%m")
-    print(f"Current date is - {today}")
+    current_time = now.strftime("%H:%M:%S")
+    print(f"Current date - {today} \n Current time -{current_time}")
 
     worker_detail = []
     for person in workers:
@@ -76,9 +78,10 @@ def review(request):
     if save:
         with open('Saved/reports.txt', 'w+') as f:
             print('Saving to a text file.')
-            f.writelines(f"This will contain a dictionary of all the workers whose salary is below average"
-                         f" and are working for over a year\nAverage worker salary is : {average_salary}"
-                         f"\nCurrent date - {today}\n{save}")
+            f.writelines(f"All workers whose salary is below average and are employed for over a year will show here."
+                         f"\nAverage worker salary : {average_salary}"
+                         f"\nCurrent Date - {today}\nCurrent Time - {current_time}"
+                         f"\n--------------------------------------------------------------------------------\n{save}")
 
     messages.success(request, 'Please check your console or alternatively the /Saved folder.')
     return HttpResponse("""<html><script>window.location.replace('/');</script></html>""")

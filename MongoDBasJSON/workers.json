@@ -1,0 +1,191 @@
+[{
+  "_id": {
+    "$oid": "62baa60a5fead469463ea27b"
+  },
+  "id": 1,
+  "name": "ellie",
+  "last_name": "hodjayev",
+  "email": "ehodjayev@company.net",
+  "phone_number": 502461700,
+  "hire_date": {
+    "$date": {
+      "$numberLong": "1656374400000"
+    }
+  },
+  "job": "DevOps",
+  "salary": 17000,
+  "commission_pct": null,
+  "manager_id": null,
+  "department_id": null
+},{
+  "_id": {
+    "$oid": "62baa6446eeaff009eac9e7d"
+  },
+  "id": 2,
+  "name": "Steven",
+  "last_name": "King",
+  "email": "Sking@company.net",
+  "phone_number": 507652135,
+  "hire_date": {
+    "$date": {
+      "$numberLong": "1593302400000"
+    }
+  },
+  "job": "System Administrator",
+  "salary": 11000,
+  "commission_pct": null,
+  "manager_id": null,
+  "department_id": null
+},{
+  "_id": {
+    "$oid": "62baa67b6eeaff009eac9e81"
+  },
+  "id": 3,
+  "name": "Neena",
+  "last_name": "Kochhar",
+  "email": "Nkochhar@company.net",
+  "phone_number": 545235818,
+  "hire_date": {
+    "$date": {
+      "$numberLong": "1581292800000"
+    }
+  },
+  "job": "Quality Assurance",
+  "salary": 13000,
+  "commission_pct": null,
+  "manager_id": null,
+  "department_id": null
+},{
+  "_id": {
+    "$oid": "62baa6ab6eeaff009eac9e84"
+  },
+  "id": 4,
+  "name": "Lex",
+  "last_name": "De Haan",
+  "email": "Ldehaan@company.net",
+  "phone_number": 545235818,
+  "hire_date": {
+    "$date": {
+      "$numberLong": "1670112000000"
+    }
+  },
+  "job": "Help Desk",
+  "salary": 8000,
+  "commission_pct": null,
+  "manager_id": null,
+  "department_id": null
+},{
+  "_id": {
+    "$oid": "62baa6db6eeaff009eac9e86"
+  },
+  "id": 5,
+  "name": "Alexander",
+  "last_name": "Hunold",
+  "email": "Ahunold@company.net",
+  "phone_number": 523518357,
+  "hire_date": {
+    "$date": {
+      "$numberLong": "1633219200000"
+    }
+  },
+  "job": "Software Engineer",
+  "salary": 18000,
+  "commission_pct": null,
+  "manager_id": null,
+  "department_id": null
+},{
+  "_id": {
+    "$oid": "62baa6f66eeaff009eac9e8b"
+  },
+  "id": 6,
+  "name": "Roy",
+  "last_name": "Hamen",
+  "email": "Ramen@company.net",
+  "phone_number": 582354929,
+  "hire_date": {
+    "$date": {
+      "$numberLong": "1633219200000"
+    }
+  },
+  "job": "Software Engineer",
+  "salary": 16000,
+  "commission_pct": null,
+  "manager_id": null,
+  "department_id": null
+},{
+  "_id": {
+    "$oid": "62baa7306eeaff009eac9e8e"
+  },
+  "id": 7,
+  "name": "Inbal",
+  "last_name": "Amor",
+  "email": "Imor@company.net",
+  "phone_number": 26595198,
+  "hire_date": {
+    "$date": {
+      "$numberLong": "849916800000"
+    }
+  },
+  "job": "CEO",
+  "salary": 25000,
+  "commission_pct": 0,
+  "manager_id": 1,
+  "department_id": 1
+},{
+  "_id": {
+    "$oid": "62baa7536eeaff009eac9e90"
+  },
+  "id": 8,
+  "name": "Daniel",
+  "last_name": "Cohen",
+  "email": "Dohen@company.net",
+  "phone_number": 26595198,
+  "hire_date": {
+    "$date": {
+      "$numberLong": "1614556800000"
+    }
+  },
+  "job": "Quality Assurance",
+  "salary": 11000,
+  "commission_pct": null,
+  "manager_id": null,
+  "department_id": null
+},{
+  "_id": {
+    "$oid": "62baa7856eeaff009eac9e93"
+  },
+  "id": 9,
+  "name": "David",
+  "last_name": "Austin",
+  "email": "Baustin@company.net",
+  "phone_number": 26595198,
+  "hire_date": {
+    "$date": {
+      "$numberLong": "1670284800000"
+    }
+  },
+  "job": "Site Reliability Engineering",
+  "salary": 20000,
+  "commission_pct": null,
+  "manager_id": null,
+  "department_id": null
+},{
+  "_id": {
+    "$oid": "62baa79a6eeaff009eac9e9b"
+  },
+  "id": 10,
+  "name": "Bruce",
+  "last_name": "Ernst",
+  "email": "Bersnt@company.net",
+  "phone_number": 26595198,
+  "hire_date": {
+    "$date": {
+      "$numberLong": "1670284800000"
+    }
+  },
+  "job": "Site Reliability Engineering",
+  "salary": 18000,
+  "commission_pct": null,
+  "manager_id": null,
+  "department_id": null
+}]

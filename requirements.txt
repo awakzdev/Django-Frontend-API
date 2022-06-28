@@ -1,2 +1,4 @@
 django
 djangorestframework
+djongo
+pymongo==3.12.1
