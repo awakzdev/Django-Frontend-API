@@ -8,16 +8,17 @@
 If at any time you wish to convert back to the original database change the following under`/Ganesha/Settings.py` >
 
 MongoDB
-```DATABASES = {
+```
+DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'Django-API',
     }
-}```
+}
 
 
 Sqlite
-```DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
