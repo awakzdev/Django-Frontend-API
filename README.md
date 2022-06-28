@@ -4,3 +4,29 @@
 
 
 
+# Changing Database
+If at any time you wish to convert back to the original database change the following under `/Ganesha/Settings.py` >
+
+
+```
+MongoDB
+----------------
+DATABASES = {
+    'default': {
+        'ENGINE': 'djongo',
+        'NAME': 'Django-API',
+    }
+}
+
+
+Sqlite
+----------------
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+```
+
+ - Added an option to import json into MongoDB under /MongoDBasJson
