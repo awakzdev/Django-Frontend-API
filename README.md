@@ -5,10 +5,11 @@
 
 
 # Changing Database
-If at any time you wish to convert back to the original database change the following under`/Ganesha/Settings.py` >
+If at any time you wish to convert back to the original database change the following under `/Ganesha/Settings.py` >
 
-MongoDB
+
 ```
+MongoDB
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
