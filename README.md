@@ -21,7 +21,7 @@
 
 - Add data manually through the /admin panel - you'll have to create a superuser `python3 manage.py createsuperuser`
 
-- Add data to MongoDB from json under /MongoDBasJSON
+- Add data to MongoDB from json under /API-JSON
 
 - Revert back to the original database by changing the following under `/Ganesha/Settings.py` >
 ***
