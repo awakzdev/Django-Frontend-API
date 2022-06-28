@@ -3,7 +3,7 @@
 `git clone https://github.com/awakzdev/Django-Frontend-API ; cd Django-Frontend-API ; pip install -r requirements.txt`
 
 
-Database is MongoDB
+
 If at any time you wish to convert back to the original database change the following under`/Ganesha/Settings.py` >
 
 MongoDB
