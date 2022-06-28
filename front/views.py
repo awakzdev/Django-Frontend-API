@@ -47,7 +47,7 @@ def review(request):
     year = today.strftime("%Y")
     month = today.strftime("%m")
     current_time = now.strftime("%H:%M:%S")
-    print(f"Current date - {today} \n Current time -{current_time}")
+    print(f"Current date - {today} \n Current time - {current_time}")
 
     worker_detail = []
     for person in workers:
