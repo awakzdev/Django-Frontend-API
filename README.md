@@ -11,11 +11,13 @@
 
 # Configuration
 
-###### This project has to be configured to be able to run properly.
+###### This project's database needs to be fed in order to view its properties.
 
 **you can skip this by cloning the sqlite repository**
 
 `git clone --branch sqlite https://github.com/awakzdev/Django-Frontend-API`
+
+<hr></hr>
 
 ###### Please follow one of the options below.
 
@@ -24,21 +26,22 @@
 - Add data to MongoDB from json under /API-JSON
 
 - Revert back to the original database by changing the following under `/Ganesha/Settings.py` >
-***
+
+
+
+## MongoDB
 
 ```
-MongoDB
-----------------
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'Django-API',
     }
 }
+```
 
-
-Sqlite
-----------------
+## SQLite
+```
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
