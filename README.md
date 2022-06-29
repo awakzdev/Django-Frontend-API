@@ -14,7 +14,7 @@
 
 <hr></hr>
 
-###### Please follow one of the options below.
+###### Please follow one of the steps below.
 
 - Add data manually through the /admin panel - you'll have to create a superuser `python3 manage.py createsuperuser`
 
