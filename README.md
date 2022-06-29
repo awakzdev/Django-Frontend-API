@@ -25,7 +25,6 @@
 
 
 ## MongoDB
-
 ```
 DATABASES = {
     'default': {
