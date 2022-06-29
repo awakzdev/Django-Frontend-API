@@ -4,11 +4,6 @@
   <img src="https://github.com/awakzdev/Django-Frontend-API/blob/master/image/logo.png">
 </p>
 
-
-# Installation 
-`git clone https://github.com/awakzdev/Django-Frontend-API ; cd Django-Frontend-API ; pip install -r requirements.txt`
-
-
 # Configuration
 
 ###### This project's database needs to be fed in order to view its properties.
